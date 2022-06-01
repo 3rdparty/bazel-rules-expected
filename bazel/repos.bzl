@@ -16,7 +16,7 @@ def repos(external = True, repo_mapping = {}):
     if external:
         maybe(
             git_repository,
-            name = "com_github_3rdparty_expected",
+            name = "com_github_3rdparty_bazel_rules_tl_expected",
             remote = "https://github.com/3rdparty/bazel-rules-expected",
             commit = "fa03b08f155282f0b575b27052a53a0f3c516381",
             shallow_since = "1654115793 +0300",
