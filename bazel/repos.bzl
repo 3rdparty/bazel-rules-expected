@@ -18,7 +18,7 @@ def repos(external = True, repo_mapping = {}):
             git_repository,
             name = "com_github_3rdparty_bazel_rules_tl_expected",
             remote = "https://github.com/3rdparty/bazel-rules-expected",
-            commit = "fa03b08f155282f0b575b27052a53a0f3c516381",
-            shallow_since = "1654115793 +0300",
+            commit = "f9553177f87dc6eb0672fd406badead4180f0b14",
+            shallow_since = "1654242289 +0300",
             repo_mapping = repo_mapping,
         )
